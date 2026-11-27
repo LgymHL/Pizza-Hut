@@ -1,0 +1,277 @@
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-sans/700.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+@import "@fontsource/ibm-plex-mono/600.css";
+@import "tailwindcss";
+
+/*
+ * Design system "Midnight System Glow" — copiado do projeto Lovable
+ * (src/styles.css), com os mesmos tokens oklch, fontes e utilitário `num`.
+ *
+ * As telas herdadas do Pizza Hut BI usam classes do Tailwind padrão
+ * (gray-*, red-*, green-*, amber-*...). Essas escalas foram remapeadas
+ * abaixo para os tokens do Lovable, então essas telas ganham o mesmo visual
+ * (fundo, cartões, bordas, faróis e alertas) sem precisar reescrever cada uma.
+ */
+
+:root {
+  --radius: 0.5rem;
+  --background: oklch(0.155 0.008 250);
+  --foreground: oklch(0.95 0.005 250);
+  --card: oklch(0.195 0.009 250);
+  --card-foreground: oklch(0.95 0.005 250);
+  --popover: oklch(0.21 0.01 250);
+  --popover-foreground: oklch(0.95 0.005 250);
+  --primary: oklch(0.585 0.215 27);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.25 0.01 250);
+  --secondary-foreground: oklch(0.92 0.005 250);
+  --muted: oklch(0.24 0.01 250);
+  --muted-foreground: oklch(0.68 0.015 250);
+  --accent: oklch(0.26 0.012 250);
+  --accent-foreground: oklch(0.95 0.005 250);
+  --destructive: oklch(0.62 0.21 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --success: oklch(0.72 0.16 150);
+  --success-foreground: oklch(0.16 0.02 150);
+  --warning: oklch(0.8 0.15 80);
+  --border: oklch(0.28 0.01 250);
+  --input: oklch(0.3 0.01 250);
+  --ring: oklch(0.585 0.215 27);
+  /* Paleta de gráficos: vermelho Pizza Hut, âmbar, cinza-azulado, branco-gelo */
+  --chart-1: oklch(0.6 0.21 27);
+  --chart-2: oklch(0.8 0.15 75);
+  --chart-3: oklch(0.65 0.04 245);
+  --chart-4: oklch(0.93 0.01 230);
+  --chart-5: oklch(0.48 0.03 250);
+  /* Cores fixas das lojas em todas as telas */
+  --loja-holandeses: var(--chart-1);
+  --loja-renascenca: var(--chart-2);
+  --sidebar: oklch(0.13 0.008 250);
+  --sidebar-foreground: oklch(0.85 0.008 250);
+  --sidebar-primary: oklch(0.585 0.215 27);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.2 0.01 250);
+  --sidebar-accent-foreground: oklch(0.95 0.005 250);
+  --sidebar-border: oklch(0.24 0.01 250);
+  --sidebar-ring: oklch(0.585 0.215 27);
+}
+
+@theme inline {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: var(--radius);
+  --radius-2xl: calc(var(--radius) + 4px);
+
+  /* Tokens do Lovable (bg-card, text-muted-foreground, bg-primary...) */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-loja-holandeses: var(--loja-holandeses);
+  --color-loja-renascenca: var(--loja-renascenca);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+
+  /* Nomes antigos do Pizza Hut BI apontando para os tokens do Lovable */
+  --color-hut-red: var(--primary);
+  --color-hut-bg: var(--background);
+  --color-hut-sidebar: var(--sidebar);
+  --color-hut-card: var(--card);
+  --color-hut-border: var(--border);
+  --color-hut-muted: var(--muted-foreground);
+
+  --color-white: oklch(0.98 0 0);
+
+  /* Cinzas → superfícies e textos do Lovable */
+  --color-gray-50: color-mix(in oklab, var(--muted) 50%, transparent);
+  --color-gray-100: var(--muted);
+  --color-gray-200: var(--border);
+  --color-gray-300: var(--input);
+  --color-gray-400: oklch(0.55 0.015 250);
+  --color-gray-500: var(--muted-foreground);
+  --color-gray-600: var(--muted-foreground);
+  --color-gray-700: oklch(0.85 0.008 250);
+  --color-gray-800: oklch(0.9 0.006 250);
+  --color-gray-900: var(--foreground);
+  --color-gray-950: var(--foreground);
+
+  /* Alertas no estilo dos faróis do Lovable: fundo /10, borda /40, texto saturado */
+  --color-red-50: color-mix(in oklab, var(--destructive) 10%, transparent);
+  --color-red-100: color-mix(in oklab, var(--destructive) 18%, transparent);
+  --color-red-200: color-mix(in oklab, var(--destructive) 40%, transparent);
+  --color-red-300: color-mix(in oklab, var(--destructive) 55%, transparent);
+  --color-red-500: var(--destructive);
+  --color-red-600: var(--destructive);
+  --color-red-700: var(--destructive);
+  --color-red-800: var(--destructive);
+  --color-red-900: var(--destructive);
+
+  --color-green-50: color-mix(in oklab, var(--success) 10%, transparent);
+  --color-green-100: color-mix(in oklab, var(--success) 18%, transparent);
+  --color-green-200: color-mix(in oklab, var(--success) 40%, transparent);
+  --color-green-500: var(--success);
+  --color-green-600: var(--success);
+  --color-green-700: var(--success);
+  --color-green-800: var(--success);
+
+  --color-emerald-50: color-mix(in oklab, var(--success) 10%, transparent);
+  --color-emerald-200: color-mix(in oklab, var(--success) 40%, transparent);
+  --color-emerald-500: var(--success);
+  --color-emerald-700: var(--success);
+  --color-emerald-800: var(--success);
+  --color-emerald-900: var(--success);
+
+  --color-amber-50: color-mix(in oklab, var(--warning) 10%, transparent);
+  --color-amber-100: color-mix(in oklab, var(--warning) 18%, transparent);
+  --color-amber-200: color-mix(in oklab, var(--warning) 40%, transparent);
+  --color-amber-300: color-mix(in oklab, var(--warning) 55%, transparent);
+  --color-amber-400: var(--warning);
+  --color-amber-600: var(--warning);
+  --color-amber-700: var(--warning);
+  --color-amber-800: var(--warning);
+  --color-amber-900: var(--warning);
+  --color-amber-950: var(--warning);
+
+  --color-orange-600: var(--chart-2);
+
+  --color-blue-50: color-mix(in oklab, var(--chart-3) 12%, transparent);
+  --color-blue-200: color-mix(in oklab, var(--chart-3) 40%, transparent);
+  --color-blue-500: var(--chart-3);
+  --color-blue-700: var(--chart-3);
+  --color-blue-800: var(--chart-3);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Números em IBM Plex Mono, igual ao Lovable */
+@utility num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/*
+ * As telas herdadas usam textos muito pequenos (10–11px).
+ * O Lovable usa 12px como menor tamanho, então ajustamos aqui.
+ */
+.text-\[9px\],
+.text-\[10px\],
+.text-\[11px\] {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/* Valores de destaque das telas herdadas também em fonte mono */
+main strong.text-2xl,
+main strong.text-xl,
+main strong.text-lg,
+main strong.text-\[21px\],
+main h2.mt-2.text-2xl {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
+
+option {
+  background: var(--popover);
+  color: var(--popover-foreground);
+}
+
+/* Recharts no padrão do Lovable */
+/* sem contorno branco nem "piscada" azul ao tocar/clicar num gráfico (celular) */
+.recharts-wrapper,
+.recharts-surface,
+.recharts-wrapper *:focus {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.recharts-cartesian-grid line {
+  stroke: var(--border);
+}
+
+.recharts-cartesian-axis-tick text {
+  fill: var(--muted-foreground);
+  font-size: 11px;
+}
+
+.recharts-cartesian-axis-line {
+  stroke: var(--muted-foreground);
+}
+
+.recharts-default-tooltip {
+  background: var(--popover) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px;
+  color: var(--popover-foreground) !important;
+}
+
+.recharts-tooltip-label {
+  color: var(--muted-foreground) !important;
+}
+
+.recharts-tooltip-cursor {
+  fill: var(--muted);
+}
+
+.recharts-legend-item-text {
+  color: var(--foreground) !important;
+  font-size: 12px;
+}
+

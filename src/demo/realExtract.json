@@ -1,0 +1,1332 @@
+{
+ "produtosNov": {
+  "unit-holandeses": [
+   {
+    "nome": "GD FRANGO REQ",
+    "qtd": 365,
+    "liquido": 25795.92
+   },
+   {
+    "nome": "GD PEPPERONI",
+    "qtd": 300,
+    "liquido": 20504.16
+   },
+   {
+    "nome": "MD PORTUGUESA",
+    "qtd": 278,
+    "liquido": 11705.51
+   },
+   {
+    "nome": "GD CALABRESA",
+    "qtd": 247,
+    "liquido": 19581.98
+   },
+   {
+    "nome": "IND CALABRESA",
+    "qtd": 222,
+    "liquido": 6588.97
+   },
+   {
+    "nome": "MD CALABRESA",
+    "qtd": 173,
+    "liquido": 7875.15
+   },
+   {
+    "nome": "GD CORN BACON",
+    "qtd": 151,
+    "liquido": 10399.98
+   },
+   {
+    "nome": "IND FRANGO REQ",
+    "qtd": 131,
+    "liquido": 3526.99
+   },
+   {
+    "nome": "GD MARGUERITA",
+    "qtd": 88,
+    "liquido": 6306.05
+   },
+   {
+    "nome": "MD FRANGO REQ",
+    "qtd": 85,
+    "liquido": 3753.65
+   },
+   {
+    "nome": "GD CALABRESA REQ",
+    "qtd": 82,
+    "liquido": 7254.44
+   },
+   {
+    "nome": "IND PEPPERONI",
+    "qtd": 82,
+    "liquido": 2364.89
+   },
+   {
+    "nome": "GD PORTUGUESA",
+    "qtd": 80,
+    "liquido": 6131.13
+   },
+   {
+    "nome": "GD BRASILEIRA",
+    "qtd": 42,
+    "liquido": 3903.26
+   }
+  ],
+  "unit-renascenca": [
+   {
+    "nome": "IND CALABRESA",
+    "qtd": 196,
+    "liquido": 5967.87
+   },
+   {
+    "nome": "IND FRANGO REQ",
+    "qtd": 153,
+    "liquido": 4338.92
+   },
+   {
+    "nome": "GD PEPPERONI",
+    "qtd": 150,
+    "liquido": 10686.61
+   },
+   {
+    "nome": "GD FRANGO REQ",
+    "qtd": 135,
+    "liquido": 9440.77
+   },
+   {
+    "nome": "IND PEPPERONI",
+    "qtd": 90,
+    "liquido": 2589.4
+   },
+   {
+    "nome": "GD CORN BACON",
+    "qtd": 80,
+    "liquido": 5507.81
+   },
+   {
+    "nome": "GD CALABRESA",
+    "qtd": 70,
+    "liquido": 5631.46
+   },
+   {
+    "nome": "GD MARGUERITA",
+    "qtd": 59,
+    "liquido": 4171.93
+   },
+   {
+    "nome": "IND MARGUERITA",
+    "qtd": 54,
+    "liquido": 1536.75
+   },
+   {
+    "nome": "IND PORTUGUESA",
+    "qtd": 52,
+    "liquido": 1596.26
+   },
+   {
+    "nome": "IND BRASILEIRA",
+    "qtd": 52,
+    "liquido": 1756.95
+   },
+   {
+    "nome": "IND PEPPERONI REQ",
+    "qtd": 42,
+    "liquido": 1377.35
+   },
+   {
+    "nome": "IND CALABRESA REQ",
+    "qtd": 40,
+    "liquido": 1304.63
+   },
+   {
+    "nome": "IND MUSSARELA",
+    "qtd": 33,
+    "liquido": 1002.16
+   }
+  ]
+ },
+ "categoriasNov": {
+  "unit-holandeses": {
+   "PIZZA GRANDE": 214847.05,
+   "BEBIDAS": 50645.45,
+   "PIZZA MEDIA": 47553.85,
+   "PIZZA INDIVIDUAL": 21963.28,
+   "REFEICAO": 12076.86,
+   "SOBREMESAS": 11679.4,
+   "Outros": 8563.6,
+   "BEBIDAS ALCOOLICAS": 7038.56,
+   "ENTRADAS": 5947.91,
+   "PROMOCOES": 3051.65,
+   "INGREDIENTES": 539.07,
+   "DESCARTAVEIS": 0.01
+  },
+  "unit-renascenca": {
+   "PIZZA GRANDE": 93779.65,
+   "PIZZA INDIVIDUAL": 24577.81,
+   "PIZZA MEDIA": 15553.73,
+   "BEBIDAS": 9249.41,
+   "SOBREMESAS": 5100.1,
+   "ENTRADAS": 4294.84,
+   "REFEICAO": 1982.6,
+   "Outros": 1790.07,
+   "INGREDIENTES": 197.23,
+   "BEBIDAS ALCOOLICAS": 134.2,
+   "DESCARTAVEIS": 1.16,
+   "PROMOCOES": 0.0
+  }
+ },
+ "desperdicio": [
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "103",
+   "productName": "PREP MASSA PAN GRANDE",
+   "reason": "Perda natural no preparo",
+   "quantity": 12.0,
+   "lossCents": 2787
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "104",
+   "productName": "PREP MASSA PAN MEDIA",
+   "reason": "Problema no recebimento",
+   "quantity": 4.0,
+   "lossCents": 892
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "153021",
+   "productName": "FATIA CALAB REQ",
+   "reason": "Avaria parcial",
+   "quantity": 4.0,
+   "lossCents": 1502
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "20009",
+   "productName": "FATIA QUEIJO HUT",
+   "reason": "Avaria parcial",
+   "quantity": 5.0,
+   "lossCents": 1472
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "21005",
+   "productName": "FATIA CALABRESA",
+   "reason": "Avaria parcial",
+   "quantity": 7.0,
+   "lossCents": 2427
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "21008",
+   "productName": "FATIA BRASILEIRA",
+   "reason": "Avaria parcial",
+   "quantity": 6.0,
+   "lossCents": 2204
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "21018",
+   "productName": "FATIA MARGUERITA",
+   "reason": "Avaria parcial",
+   "quantity": 2.0,
+   "lossCents": 491
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Avaria parcial",
+   "quantity": 3.0,
+   "lossCents": 943
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "88399",
+   "productName": "FATIA PEPPERONI",
+   "reason": "Avaria parcial",
+   "quantity": 2.0,
+   "lossCents": 588
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "920",
+   "productName": "FATIA COUNTRY",
+   "reason": "Avaria parcial",
+   "quantity": 5.0,
+   "lossCents": 2051
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 314
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91101",
+   "productName": "GD PEPPERONI",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 2016
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91536",
+   "productName": "BREAD PEPPE 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 713
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "12671",
+   "productName": "MD MASSA ARTEZANALE",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 223
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 314
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22670",
+   "productName": "MD MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 223
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91101",
+   "productName": "GD PEPPERONI",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 2016
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91400",
+   "productName": "MD CALABRESA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 1567
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91402",
+   "productName": "MD BRASILEIRA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 1690
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22670",
+   "productName": "MD MASSA PAN",
+   "reason": "Teste operacional (Pizza Perfeita)",
+   "quantity": 1.0,
+   "lossCents": 223
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "32672",
+   "productName": "GD MASSA ARTEZANALE",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 314
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91002",
+   "productName": "1/2 GD QUEIJO HUT",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 985
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91004",
+   "productName": "1/2 GD CALABRESA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 1133
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91408",
+   "productName": "MD SUPREME",
+   "reason": "Teste operacional (Pizza Perfeita)",
+   "quantity": 1.0,
+   "lossCents": 1481
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91536",
+   "productName": "BREAD PEPPE 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 731
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "95040",
+   "productName": "BREAD QJO HUT 4U",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 796
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 4.0,
+   "lossCents": 1258
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22867",
+   "productName": "IND MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 2.0,
+   "lossCents": 175
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91002",
+   "productName": "1/2 GD QUEIJO HUT",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 985
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91004",
+   "productName": "1/2 GD CALABRESA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 1133
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91100",
+   "productName": "GD CALABRESA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 2254
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91101",
+   "productName": "GD PEPPERONI",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 2016
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91110",
+   "productName": "GD MARGUERITA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 1616
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91536",
+   "productName": "BREAD PEPPE 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 731
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91785",
+   "productName": "IND CALABRESA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 2.0,
+   "lossCents": 1383
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "95040",
+   "productName": "BREAD QJO HUT 4U",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 796
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 2.0,
+   "lossCents": 629
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22867",
+   "productName": "IND MASSA PAN",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 88
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91004",
+   "productName": "1/2 GD CALABRESA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 1133
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91005",
+   "productName": "1/2 GD FGO REQ",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 966
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91104",
+   "productName": "GD QUEIJO HUT",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 1834
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91110",
+   "productName": "GD MARGUERITA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 1616
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91785",
+   "productName": "IND CALABRESA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 692
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "95040",
+   "productName": "BREAD QJO HUT 4U",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 796
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "153021",
+   "productName": "FATIA CALAB REQ",
+   "reason": "Avaria parcial",
+   "quantity": 4.0,
+   "lossCents": 1489
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "20009",
+   "productName": "FATIA QUEIJO HUT",
+   "reason": "Avaria parcial",
+   "quantity": 3.0,
+   "lossCents": 874
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "21005",
+   "productName": "FATIA CALABRESA",
+   "reason": "Avaria parcial",
+   "quantity": 5.0,
+   "lossCents": 1718
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "21006",
+   "productName": "FATIA FGO REQ",
+   "reason": "Avaria parcial",
+   "quantity": 3.0,
+   "lossCents": 837
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "21008",
+   "productName": "FATIA BRASILEIRA",
+   "reason": "Avaria parcial",
+   "quantity": 6.0,
+   "lossCents": 2185
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Avaria parcial",
+   "quantity": 4.0,
+   "lossCents": 1258
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "50076",
+   "productName": "FATIA SUPREME",
+   "reason": "Avaria parcial",
+   "quantity": 5.0,
+   "lossCents": 1756
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "50079",
+   "productName": "FATIA PORTUGUESA",
+   "reason": "Avaria parcial",
+   "quantity": 2.0,
+   "lossCents": 723
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22670",
+   "productName": "MD MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 214
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-27",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91400",
+   "productName": "MD CALABRESA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 1354
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "104",
+   "productName": "PREP MASSA PAN MEDIA",
+   "reason": "Problema no recebimento",
+   "quantity": 2.0,
+   "lossCents": 428
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22672",
+   "productName": "GD MASSA ARTEZANALE DV",
+   "reason": "Problema no recebimento",
+   "quantity": 4.0,
+   "lossCents": 2803
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "32672",
+   "productName": "GD MASSA ARTEZANALE",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 302
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-28",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91103",
+   "productName": "GD FGO REQ",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 1574
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22670",
+   "productName": "MD MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 214
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91400",
+   "productName": "MD CALABRESA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 1347
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91535",
+   "productName": "BREAD PEPPE 2UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 312
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-29",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "95040",
+   "productName": "BREAD QJO HUT 4U",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 752
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 302
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "32672",
+   "productName": "GD MASSA ARTEZANALE",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 2.0,
+   "lossCents": 603
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91003",
+   "productName": "1/2 GD PEPPERONI",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 919
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91004",
+   "productName": "1/2 GD CALABRESA",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 978
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91005",
+   "productName": "1/2 GD FGO REQ",
+   "reason": "Erro operacional / contaminação",
+   "quantity": 1.0,
+   "lossCents": 842
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91017",
+   "productName": "1/2 GD MARGUERITA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 698
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-30",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91100",
+   "productName": "GD CALABRESA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 1933
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 302
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "22670",
+   "productName": "MD MASSA PAN",
+   "reason": "Teste operacional (Pizza Perfeita)",
+   "quantity": 1.0,
+   "lossCents": 214
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91017",
+   "productName": "1/2 GD MARGUERITA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 2.0,
+   "lossCents": 1396
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91408",
+   "productName": "MD SUPREME",
+   "reason": "Teste operacional (Pizza Perfeita)",
+   "quantity": 1.0,
+   "lossCents": 1252
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91503",
+   "productName": "1/2 MD PEPPERONI",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 440
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91517",
+   "productName": "1/2 MD MARGUERITA",
+   "reason": "Consumo interno (Jogo do Brasil)",
+   "quantity": 1.0,
+   "lossCents": 460
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91536",
+   "productName": "BREAD PEPPE 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 663
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91538",
+   "productName": "SLIDER BRIGADEIRO",
+   "reason": "Perda natural no preparo",
+   "quantity": 1.0,
+   "lossCents": 328
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-31",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "95040",
+   "productName": "BREAD QJO HUT 4U",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 752
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91536",
+   "productName": "BREAD PEPPE 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 667
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91559",
+   "productName": "SLIDER NUTELLA",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 357
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91560",
+   "productName": "BREAD NUTELLA 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 2.0,
+   "lossCents": 977
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "95057",
+   "productName": "BREAD QJO HUT 2U",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 277
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91535",
+   "productName": "BREAD PEPPE 2UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 312
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Completo",
+   "typeDescription": "Produto pronto",
+   "productCode": "91536",
+   "productName": "BREAD PEPPE 4UN",
+   "reason": "Avaria parcial",
+   "quantity": 1.0,
+   "lossCents": 663
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-28",
+   "shift": "Manhã",
+   "type": "Incompleto",
+   "typeDescription": "Insumo/matéria-prima",
+   "productCode": "P0013",
+   "productName": "BATATA (MASTER) KG",
+   "reason": "Avaria parcial",
+   "quantity": 0.9,
+   "lossCents": 1952
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-28",
+   "shift": "Manhã",
+   "type": "Incompleto",
+   "typeDescription": "Insumo/matéria-prima",
+   "productCode": "P0056",
+   "productName": "TOMATE (MASTER) KG",
+   "reason": "Perda natural no preparo",
+   "quantity": 0.23,
+   "lossCents": 230
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-10-29",
+   "shift": "Manhã",
+   "type": "Incompleto",
+   "typeDescription": "Insumo/matéria-prima",
+   "productCode": "P0018",
+   "productName": "CALABRESA (MASTER) KG",
+   "reason": "Perda natural no preparo",
+   "quantity": 0.05,
+   "lossCents": 147
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-10-29",
+   "shift": "Manhã",
+   "type": "Incompleto",
+   "typeDescription": "Insumo/matéria-prima",
+   "productCode": "P0056",
+   "productName": "TOMATE (MASTER) KG",
+   "reason": "Perda natural no preparo",
+   "quantity": 0.1,
+   "lossCents": 61
+  },
+  {
+   "unitId": "unit-renascenca",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Incompleto",
+   "typeDescription": "Insumo/matéria-prima",
+   "productCode": "P0013",
+   "productName": "BATATA (MASTER) KG",
+   "reason": "Problema no recebimento",
+   "quantity": 0.13,
+   "lossCents": 252
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Pizza motoboy",
+   "quantity": 2.0,
+   "lossCents": 629
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "91100",
+   "productName": "GD CALABRESA",
+   "reason": "Pizza motoboy",
+   "quantity": 1.0,
+   "lossCents": 2254
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-01",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "91103",
+   "productName": "GD FGO REQ",
+   "reason": "Pizza motoboy",
+   "quantity": 1.0,
+   "lossCents": 1834
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "22669",
+   "productName": "GD MASSA PAN",
+   "reason": "Pizza motoboy",
+   "quantity": 1.0,
+   "lossCents": 314
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "22670",
+   "productName": "MD MASSA PAN",
+   "reason": "Pizza motoboy",
+   "quantity": 1.0,
+   "lossCents": 223
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "91100",
+   "productName": "GD CALABRESA",
+   "reason": "Pizza motoboy",
+   "quantity": 1.0,
+   "lossCents": 2234
+  },
+  {
+   "unitId": "unit-holandeses",
+   "date": "2026-11-02",
+   "shift": "Tarde",
+   "type": "Motoboy",
+   "typeDescription": "Pizza motoboy",
+   "productCode": "91400",
+   "productName": "MD CALABRESA",
+   "reason": "Pizza motoboy",
+   "quantity": 1.0,
+   "lossCents": 1556
+  }
+ ]
+}
